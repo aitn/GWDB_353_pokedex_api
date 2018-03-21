@@ -6,5 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 #
+#   number
+#   title
+#   poketype
+#   image
+#   gender
+#   slug
+#
 Pokemon.create(number: 001, title:'Bulbasaur', poketype:'grass', image:'some-url.png', gender:'male', slug:'bulbasaur')
 
